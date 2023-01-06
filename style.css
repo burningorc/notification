@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+main {
+    max-width: 19.5rem;
+    margin: auto;
+    margin-top: 1.3rem;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.3rem;
+}
+.notification p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: hsl(224, 21%, 14%);
+}
+.notification p span {
+    background-color: hsl(219, 85%, 26%);
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 100%);
+    margin-left: 0.3rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+}
+.top .markall p{
+    font-size: 0.85rem;
+    color: hsl(219, 14%, 63%);
+    cursor: pointer;
+}
+.top .markall p:hover {
+    color: hsl(219, 85%, 26%);
+}
+.img img {
+    max-width: 2.2rem;
+}
+.profile {
+    display: flex;
+    gap: 0.7rem;
+    margin-bottom: 0.5rem;
+    padding: 0.7rem;
+    position: relative;
+}
+.holder {
+    line-height: 0.95rem;
+}
+.text {
+    width: 100%;
+}
+.text .name {
+    font-size: 0.85rem;
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    margin-right: 0.14rem;
+    cursor: pointer;
+}
+.text .name:hover {
+    color: hsl(219, 85%, 26%);
+}
+.text .message {
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    margin-right: 0.14rem;
+}
+.text .post {
+    color: hsl(219, 12%, 42%);
+    font-size: 0.85rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+.text .post:hover {
+    color: hsl(219, 85%, 26%);
+}
+.text .time {
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    margin-top: 0.25rem;
+}
+.text .chess {
+    font-size: 0.85rem;
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+.unread {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 0.5rem;
+}
+.text .red {
+    height: 0.4rem;
+    width: 0.4rem;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    position: absolute;
+}
+.mark .text .red {
+    top: 2.2rem;
+    left: 17.1rem;
+}
+.angela .text .red {
+    top: 1.15rem;
+    left: 14.2rem;
+}
+.jacob .text .red {
+    top: 2.13rem;
+    left: 11.2rem;
+}
+.text .actual {
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    border: 1px solid hsl(219, 14%, 63%);
+    padding: 0.9rem;
+    margin-top: 0.65rem;
+}
+.text .actual:hover {
+    background-color: hsl(211, 68%, 94%);
+}
+.inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.imgcom {
+    border-radius: 0.4rem;
+    height: 2.35rem;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+.imgcom:hover{
+    border: 2px solid hsl(205, 33%, 90%);
+}
+.imgcom img {
+    max-width: 2.1rem;
+}
+
+@media (min-width: 660px){
+    body {
+        background-color: hsl(210, 60%, 98%);
+    }
+    main {
+        max-width: 36.7rem;
+        background-color: hsl(0, 0%, 100%);
+        padding: 1.6rem;
+    }
+    .mark .text .red {
+        top: 1.1rem;
+        left: 31.7rem;
+    }
+    .angela .text .red {
+        top: 1.14rem;
+        left: 14.2rem;
+    }
+    .jacob .text .red {
+        top: 1.15rem;
+        left: 24.4rem;
+    }
+}
