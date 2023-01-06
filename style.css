@@ -118,7 +118,7 @@ main {
 .text .actual {
     font-size: 0.8rem;
     color: hsl(219, 14%, 63%);
-    border: 1px solid hsl(219, 14%, 63%);
+    border: 1px solid hsl(205, 33%, 90%);
     padding: 0.9rem;
     margin-top: 0.65rem;
 }
